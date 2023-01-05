@@ -70,7 +70,8 @@ main {
 
 .signup-form button[type="submit"] {
   display: block;
-  /* margin-top: 1rem; */
+  height: 2.5rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 40rem) {
@@ -86,5 +87,9 @@ main {
   }
   .signup-form__checkbox {
     grid-column: span 2;
+  }
+
+  .signup-form button[type="submit"] {
+    margin-top: 0rem;
   }
 }
